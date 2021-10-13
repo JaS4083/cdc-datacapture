@@ -1,0 +1,7 @@
+[mysqld]
+server_id=42
+log_bin=mysql_bin
+binlog_format=row
+binlog_row_image=full
+expire_logs_days=10
+max_allowed_packet=32M
